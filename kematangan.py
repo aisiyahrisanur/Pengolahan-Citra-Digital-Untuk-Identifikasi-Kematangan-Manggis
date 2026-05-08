@@ -22,7 +22,7 @@ model.compile(optimizer='adam',
               loss='categorical_crossentropy', 
               metrics=['accuracy'])
 
-print("Model siap dilatih dengan dataset manggis Anda!")
+print("Model siap dilatih dengan dataset manggis")
 
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
